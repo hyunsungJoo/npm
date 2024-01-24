@@ -50,7 +50,7 @@ $ joocurtis 홍길동 이순신 김유신
 ### dev stack
 - WSL > nvm > nodejs v20.11.0. > npm cli
 
-###publish
+### publish
 ```
 $ npm login
 $ npm publish
