@@ -1,6 +1,6 @@
 {
   "name": "joocurtis",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "joocurtis",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,9 @@
   "author": "joocurtis",
   "license": "ISC",
   "bin": {
-   "joocurtis": "./index.js"
+    "joocurtis": "./index.js"
+  },
+  "dependencies": {
+    "pysatellite": "^0.5.0"
   }
 }
