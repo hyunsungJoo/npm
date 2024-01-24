@@ -10,5 +10,8 @@
     "joocurtis"
   ],
   "author": "joocurtis",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+   "joocurtis": "./index.js"
+  }
 }
