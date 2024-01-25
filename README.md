@@ -2,11 +2,10 @@
 
 ![joocurtis](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Two_3U_CubeSats.jpg/495px-Two_3U_CubeSats.jpg)
 
-
 ### use
 ```
 $ npm install -g joocurtis
-$ joocurtis 홍길동 이순신 김유신
+$ joocurtis 홍길동 이순신 김유신 // 발표자가 홍길동 이순신 김유신 중에 랜덤으로 출력되어야함.
 
              @
             @@@@@@@@
@@ -47,6 +46,9 @@ $ joocurtis 홍길동 이순신 김유신
                                  @@@@
 발표자:홍길동
 ```
+### 제약사항
+- 이 프로그램은 WSL환경에서 작성하여 MAC환경에서는 잘 작동하지 않을 수 있음.
+
 ### dev stack
 - WSL > nvm > nodejs v20.11.0. > npm cli
 
