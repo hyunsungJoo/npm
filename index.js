@@ -18,7 +18,26 @@ console.log(`
                                  @@@@
 	`);
 
-let args = process.argv.slice(2);
-let length = args.length;
 
-console.log('발표자 : ',args[Math.floor(Math.random() * length)]); 
+
+
+class Random {
+    constructor() {
+        this.args = process.argv.slice(2);
+        this.length = this.args.length;
+    }
+}
+
+class RandomPrint extends Random {
+	constructor(){
+		super();
+	}
+	print() {
+        console.log('발표자 : ', this.args[Math.floor(Math.random() * this.length)]);
+    }
+}
+
+const r = new RandomPrint();
+r.print();
+
+
