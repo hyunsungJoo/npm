@@ -53,8 +53,9 @@ class RandomPrint extends Random {
         super(...args);
     }
 
-    print() {
-        console.log('발표자 : ', this.args[Math.floor(Math.random() * this.length)]);
+    print(a) {
+	var b = typeof a !== 'undefined' ? a : '발표자';
+        console.log(b, this.args[Math.floor(Math.random() * this.length)]);
     }
 }
 
