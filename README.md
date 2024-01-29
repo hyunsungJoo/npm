@@ -4,6 +4,7 @@
 
 ### use
 ```
+//JS Default, Rest Parameters 를 활용
 $ npm install -g joocurtis
 $ joocurtis 홍길동 이순신 김유신 // 발표자가 홍길동 이순신 김유신 중에 랜덤으로 출력되어야함.
 

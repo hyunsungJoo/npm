@@ -41,7 +41,6 @@ class RandomPrint extends Random {
 const r = new RandomPrint();
 r.print();
 */
-
 class Random {
     constructor(...args) {
         this.args = args;
@@ -50,14 +49,12 @@ class Random {
 }
 
 class RandomPrint extends Random {
-    constructor(a, ...args) {
+    constructor(...args) {
         super(...args);
-        const b = typeof a !== 'undefined' ? a : '발표자';
-	this.a = b;
     }
 
     print() {
-        console.log(this.a, this.args[Math.floor(Math.random() * this.length)]);
+        console.log('발표자 : ', this.args[Math.floor(Math.random() * this.length)]);
     }
 }
 
